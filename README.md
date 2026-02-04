@@ -1,4 +1,8 @@
-Woosong University Introduction to Machine Learning Project
+# Woosong University Introduction to Machine Learning Project
+
+# Reference Paper
+X. Huang et al., "InterDIA: Interpretable prediction of drug-induced autoimmunity through ensemble machine learning approaches," Toxicology, vol. 511, p. 154025, 2025.
+https://www.sciencedirect.com/science/article/abs/pii/S0300483X25000204
 
 # Abstract
 In pharmaceutical drug development, one challenge is avoiding drug-induced autoimmunity (DIA) where compounds trigger immune responses leading to various autoimmune conditions. 

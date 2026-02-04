@@ -6,6 +6,7 @@ Several existing computational approaches focus primarily on predicting DIA toxi
 This study attempts DuaSHAP, a dual-model SHAP (SHapley Additive exPlanations) framework which identifies molecular features that optimize both safety (reduced DIA risk) and favorable drug-like properties. Using the InterDIA dataset comprising 597 compounds characterized by 196 RDKit molecular descriptors, two XGBoost classifiers were trained: 
 1. DIA toxicity prediction
 2. Drug-likeness classification based on Lipinski's Rule of Five criteria.
+
 SHAP values were extracted and normalized and an Antagonistic Feature Matrix categorizing 178 common descriptors into four quadrants was constructed.
 As a result, 18 "Sweet Spot" features exhibiting the desirable combination of decreasing DIA risk while enhancing drug-likeness were identified.
 Robustness validation was conducted across five random seeds and 13 of these features (72%) remained stable including topological indices such as BalabanJ and Kappa shape indices, and also surface area descriptors like SMR_VSA5.

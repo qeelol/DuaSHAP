@@ -1,10 +1,10 @@
 # Woosong University Introduction to Machine Learning Project
 
-# Reference Paper
+## Reference Paper
 X. Huang et al., "InterDIA: Interpretable prediction of drug-induced autoimmunity through ensemble machine learning approaches," Toxicology, vol. 511, p. 154025, 2025.
 https://www.sciencedirect.com/science/article/abs/pii/S0300483X25000204
 
-# Abstract
+## Abstract
 In pharmaceutical drug development, one challenge is avoiding drug-induced autoimmunity (DIA) where compounds trigger immune responses leading to various autoimmune conditions. 
 Several existing computational approaches focus primarily on predicting DIA toxicity but do not address drug-likeness properties essential for therapeutic viability. 
 This study attempts DuaSHAP, a dual-model SHAP (SHapley Additive exPlanations) framework which identifies molecular features that optimize both safety (reduced DIA risk) and favorable drug-like properties. Using the InterDIA dataset comprising 597 compounds characterized by 196 RDKit molecular descriptors, two XGBoost classifiers were trained: 
